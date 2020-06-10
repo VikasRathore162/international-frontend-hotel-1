@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  #content{
+    flex: 1;
+  }
+  nav {
+    width: 100%;
+    background-color: #5C5959;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  
+  .logo {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 34px;
+    color: #F77F00;
+    font-family: Pacifico;
+  }
+  
+  .nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #F77F00;
+  }
+  
+  .nav-item:hover {
+    background-color:  rgb(206, 202, 202);
+  }
+  .logo:hover{
+    color: #F77F00;
+    background-color:  #5C5959;
+    text-decoration: none;
+  }
+  .nav-item:hover a {
+    color: #F77F00;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-fixed-top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+.hero-image {
+  height: 23rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/hotel-images/room4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+  h1{
+      padding: 200px;
+      text-align: center;
+      color: white;
+
+  }
+  h3{
+      color:#F77F00;
+      text-align: center;
+  }
+    .ammenities{
+      position: relative;
+      background: #50423F;
+      color:white;
+      padding: 10px;
+      margin-bottom: 20px;
+    
+  }
+  .ammenities li::before{
+      content: "\2022";
+      color: #F77F00;
+      padding: 2px;
+      font-weight: bold;
+      width: 1em;
+      margin-left: -1em;
+  }
+  #standard, #deluxe, #presidential{
+    border: 1px ridge rgb(148, 147, 147);
+  }
+.row{
+  margin: 10px;
+}
+.col-md-4{
+  margin: 30px;
+}
+.col-md-4 img{
+  max-width: 100%;
+  height: auto;
+}
+button{
+    background:#F77F00;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin:5px;
+}
+ footer {
+        background-color: #555;
+        color: #F77F00;
+        bottom: 0;
+      }
+  footer a {
+    text-decoration: none;
+    color: #F77F00;
+}  
+.ft-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+  @media only screen and (min-width: 480px) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 1200px ) {
+    .ft-main {
+        justify-content: space-around;
+    }
+  }
+  #text{
+    font-family:Pacifico ;
+  }
+  #brandlogo{
+    position: relative;
+    display:inline-block;
+  }
+  #brandlogo #text{
+    position: absolute;
+    left:0;
+    right:0;
+    z-index: 999;
+    margin: 0,auto;
+    top: 40%;
+    text-align: center;
+  }
+  .ft-legal-list {
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+  }
