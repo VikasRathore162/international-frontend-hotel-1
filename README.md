@@ -16,14 +16,14 @@ The application was deployed to netlify.
 
 ##  Authors
 
-* **Wendy Munyasi**  (https://github.com/wendymunyasi)
-* **Lucas Gomez**  (https://github.com/gomezlucas)
-* **Susan Wafula**  (https://github.com/Suzan97)
-* **Florence Wanjiru**  (https://github.com/Machanga)
-* **Esther Wavinya**  (https://github.com/es-debug)
-* **Francine Madoh**  (https://github.com/FrancineMADOH)
-* **Winnie Kiagie**  (https://github.com/kiagekwamboka)
-* **Dolly Kpobi** 
+* **Wendy Munyasi**  (https://github.com/wendymunyasi) - Slack Username: **@__wendy**
+* **Lucas Gomez**  (https://github.com/gomezlucas) - Slack Username: **@LucasD**
+* **Susan Wafula**  (https://github.com/Suzan97) - Slack Username: **@SueWaf**
+* **Florence Wanjiru**  (https://github.com/Machanga) - Slack Username: **@Florence**
+* **Esther Wavinya**  (https://github.com/es-debug) - Slack Username: **@S_wavinya**
+* **Francine Madoh**  (https://github.com/FrancineMADOH) - Slack Username: **@francineMadoh**
+* **Winnie Kiagie**  (https://github.com/kiagekwamboka) - Slack Username: **@Winnie**
+* **Dolly Kpobi** - Slack Username: **@Deee**
 
 
 ##  License
